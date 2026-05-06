@@ -42,7 +42,6 @@ body[data-weather="haze"]        { background: linear-gradient(135deg, #475569 0
 .app {
     width: 100%;
     max-width: 440px;
-    color: white;
 }
 
 .app-header {
@@ -51,6 +50,7 @@ body[data-weather="haze"]        { background: linear-gradient(135deg, #475569 0
 }
 .app-header h1 {
     font-size: 2rem;
+    color: white;
 }
 .accent { color: var(--accent); }
 
