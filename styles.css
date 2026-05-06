@@ -72,7 +72,7 @@ body[data-weather="haze"]        { background: linear-gradient(135deg, #475569 0
     transition: border-color 0.2s;
 }
 #cityInput:focus { border-color: var(--accent); }
-#cityInput::placeholder { color: var(--text-muted); }
+#cityInput::placeholder { color: var(--text-muted); } 
 
 .btn-search {
     padding: 0 18px;
