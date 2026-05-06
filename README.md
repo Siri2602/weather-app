@@ -1,7 +1,7 @@
 # Weather App 🌦️
 
 A simple weather app made using HTML, CSS and JavaScript.  
-It shows live weather details of any city using the OpenWeather API.
+It shows live weather details of any city using the OpenWeather API. 
 
 ## Features
 - Search weather by city name
