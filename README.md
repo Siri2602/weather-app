@@ -24,4 +24,4 @@ It shows live weather details of any city using the OpenWeather API.
 Made as a practice project for learning frontend development.
 
 ## Live Demo
-
+https://siri2602.github.io/weather-app/
