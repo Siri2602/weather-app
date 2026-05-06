@@ -139,3 +139,4 @@ cityInput.addEventListener("keydown", (e) => {
 // Try a default city on load (optional)
 // fetchWeather("London");
 
+
