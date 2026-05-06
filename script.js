@@ -7,7 +7,7 @@
  * ========================================================= */
 
 // ⚠️  Replace with your own free API key from https://openweathermap.org/api
-const API_KEY = "YOUR_API_KEY_HERE";
+const API_KEY = "f9432ef60282e8c1936652cf2b426d51";
 const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
 
 // ---------- DOM ----------
