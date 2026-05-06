@@ -8,7 +8,7 @@
 
 // ⚠️  Replace with your own free API key from https://openweathermap.org/api
 const API_KEY = "52e79c6ff2365b11dc12c819265f1bef";
-const BASE_URL = "https://api.openweathermap.org/data/2.5/weather";
+const BASE_URL = "https://api.openweathermap.org/data/2.5/weather"; 
 
 // ---------- DOM ----------
 const searchForm  = document.getElementById("searchForm");
