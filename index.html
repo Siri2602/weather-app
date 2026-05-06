@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App 🌤️</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body data-weather="clear">
+    <div class="app">
+        <header class="app-header">
+            <h1>Weather <span class="accent">App</span> 🌤️</h1>
+        </header>
+
+        <form id="searchForm" class="search-bar">
+            <input
+                type="text"
+                id="cityInput"
+                placeholder="Search city..."
+                autocomplete="off"
+                required
+            />
+            <button type="submit" class="btn-search">🔍</button>
+        </form>
+
+        <!-- Loading spinner -->
+        <div id="loader" class="loader hidden">
+            <div class="spinner"></div>
+            <p>Fetching weather...</p>
+        </div>
+
+        <!-- Error message -->
+        <div id="errorBox" class="error-box hidden">
+            <span class="error-icon">❌</span>
+            <p id="errorMsg">City not found.</p>
+        </div>
+
+        <!-- Weather card -->
+        <div id="weatherCard" class="weather-card hidden">
+            <div class="datetime">
+                <span id="dateTime"></span>
+            </div>
+
+            <div class="city-name">
+                <h2 id="cityName"></h2>
+                <span id="country"></span>
+            </div>
+
+            <div class="weather-icon-wrapper">
+                <img id="weatherIcon" src="" alt="weather icon" />
+            </div>
+
+            <div class="temperature">
+                <span id="temp"></span>
+                <span class="unit">°C</span>
+            </div>
+
+            <p class="condition" id="condition"></p>
+
+            <div class="details-grid">
+                <div class="detail-card">
+                    <span class="detail-icon">🌡️</span>
+                    <div>
+                        <p class="detail-value" id="feelsLike"></p>
+                        <p class="detail-label">Feels Like</p>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <span class="detail-icon">💧</span>
+                    <div>
+                        <p class="detail-value" id="humidity"></p>
+                        <p class="detail-label">Humidity</p>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <span class="detail-icon">💨</span>
+                    <div>
+                        <p class="detail-value" id="wind"></p>
+                        <p class="detail-label">Wind Speed</p>
+                    </div>
+                </div>
+                <div class="detail-card">
+                    <span class="detail-icon">👁️</span>
+                    <div>
+                        <p class="detail-value" id="visibility"></p>
+                        <p class="detail-label">Visibility</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <p class="hint">Enter a city name to see live weather data.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
